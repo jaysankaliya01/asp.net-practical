@@ -20,6 +20,16 @@ namespace WebApplication3
             Response.Write("Welcome back!! " + name);
 
 
+
+
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(TextBox4.Text);
+            int b = int.Parse(TextBox5.Text);
+            int sum = a + b;
+            Response.Write("the ans is" +sum);
         }
     }
 }

@@ -17,6 +17,11 @@
             <br />
             <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
             <br />
+            1 NUMER<br />
+            <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+            <br />
+            2 NUMBER<br />
+            <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
             <br />
             <br />
             <br />
@@ -29,6 +34,11 @@
         <p>
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
         </p>
+        <p>
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
+        </p>
+        <p>
+            &nbsp;</p>
         <p style="margin-left: 40px">
             &nbsp;</p>
         <p>
