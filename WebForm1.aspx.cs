@@ -17,7 +17,7 @@ namespace WebApplication3
         protected void Button1_Click(object sender, EventArgs e)
         {
             string name = TextBox3.Text;
-            Response.Write("Welcome back!! " + name);
+            Response.Write("Welcome back!!   " + name);
 
 
 
@@ -29,7 +29,7 @@ namespace WebApplication3
             int a = int.Parse(TextBox4.Text);
             int b = int.Parse(TextBox5.Text);
             int sum = a + b;
-            Response.Write("the ans is" +sum);
+            Response.Write("the ans is   " +sum);
         }
     }
 }
